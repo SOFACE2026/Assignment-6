@@ -3,9 +3,11 @@
 During this exercise we will take a look at how network programming can be implemented in C/C++.
 Specifically we will implement a client-server pattern which allows a client to download an image from a
 server.
+
 The client-server is a common architecture used throughout the internet, a classical example being a
 web-browser loading a webpage. Here the web-browser acts as the client and the server is a program
 deployed to some machine, which loads the webpage from a database and sends the response to the client.
+
 It should be stressed that the server and client are simply two computer programs that communicate with
 each other. Traditionally, we think of servers as running on different machines, but there is no limitation
 on where these programs are running **During this exercise you will be running both client and**
